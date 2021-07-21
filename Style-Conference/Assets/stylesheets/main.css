@@ -322,3 +322,18 @@ Buttons
 .speaker {
     margin: botton 44px;
 }
+
+/*
+  ========================================
+  Schedule
+  ========================================
+*/
+
+table{
+    width: 100%;
+    margin-bottom: 44px;
+}
+
+table{ last-child
+    margin-bottom:0;
+}
