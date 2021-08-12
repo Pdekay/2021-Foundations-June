@@ -4,14 +4,6 @@ html, body {
 	color: #303030;
 }
 
-h1 {
-    margin: 0;
-}
-
-body {
-    margin: 0%;
-}
-
 .item1 {
     grid-area: header;
     background-color: rgba(255, 255, 255, 0.8);
@@ -54,17 +46,13 @@ body {
     text-align: center;
 }
 
-html, body {
-    font-family: sans-serif;
-    font-size: 3vh;
-    color: #303030;
-}
+
 
 .grid-containter {
     display: grid;
-    grid-template-areas:"Class 7 Homework Class 7 Homework Class 7 Homework Class 7 Homework"
-                        "Left Middle Middle Right"
-                        "Left Footer Left Footer Right Footer Right Footer";
+    grid-template-areas:"header header header header"
+                        "left middle middle right"
+                        "footer-left footer-left footer-right footer-right";
     background-color: #00a000;
     grid-gap:0.25em;
     padding: 0.25em;
