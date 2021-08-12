@@ -193,6 +193,11 @@ article:before {
     background-image: url("images/coding.jpg");
 }
 
+#about:before {
+    background-image: url("images/kent-teaching.jpg");
+    background-position: center top;
+}
+
 article > h2 {
     background-color: #000060;
     color: white;
